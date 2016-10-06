@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/plugins/gabarito" >
+     <file>icon.png</file>
+  </qresource>
+</RCC>
+
