@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from main import CheckAquisicao  
+from main import Main 
 
 
 def name():
@@ -11,7 +11,7 @@ def version():
     return "Version 0.1"
 
 def classFactory(iface):
-    return CheckAquisicao(iface)
+    return Main(iface)
 
 def qgisMinimumVersion():
     return "2.0"
